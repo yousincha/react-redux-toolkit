@@ -8,7 +8,7 @@ const Test = () => {
     return () => {
       promise.abort();
     };
-  }, []);
+  }, [dispatch]);
 
   return <div>Test</div>;
 };
